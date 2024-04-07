@@ -5,7 +5,7 @@
 int main()
 {
     std::string ip;
-    std::cin >> ip;
+    std::getline(std::cin, ip);
     std::vector<std::string> tokens;
     std::string token;
     std::stringstream ss(ip);
